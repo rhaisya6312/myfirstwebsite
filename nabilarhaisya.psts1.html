@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMA ABBS BOYOLALI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-200 -100 text-gray-600 font-sans min-h-screen flex flex-col">
+
+    <!--task1-->
+    
+    <header class="bg-teal-500 text-white font-semibold p-6 rounded-lg shadow-lg mb-6 sticky top-0 z-10">
+       <div class="container max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
+        <h1 class="text-2xl">Student creativity festival</h1>
+       
+        <nav class="space-x-4">
+            <ul class="flex space-x-10">
+                <li class="bg-teal-400 rounded-lg py-2 px-4"><a href="#">Showcase your creativity</a></li>
+                <li class="bg-teal-400 rounded-lg py-2 px-4"><a href="#"></a>Skills</a></li>
+                <li class="bg-teal-400 rounded-lg py-2 px-4"><a href="#"></a>Innovative idea</a></li>
+            </ul>
+        </nav>
+
+       </div>
+    </header>
+
+    <!--task2-->
+
+    <main class="max-w-4xl mx-auto px-4 py-5 bg-white shadow-lg rounded-lg">
+        <section id="Registration from" class="bg-white p-6 rounded-lg mb-4">
+            <h1 class="text-2xl font-bold mb-4">Registration form</h1>
+
+                <label for="name" class="block text-sm font-medium text-gray-600 py-1">Name</label>
+                <input type="name" name="name" id="name" required class="mt-1 block  border border-gray-300 rounded-md shadow-sm mb-4">
+
+    
+                <label for="class" class="block text-sm font-medium text-gray-600 py-1">Classroom</label>
+                <select name="Class" id="classroom" required class="mt-1 block border border-gray-300 rounded-md shadow-sm mb-4">
+                <option value="Xl-A"></option>
+                <option value="Xl-A">Xl-A</option>
+                <option value="Xl-B">Xl-B</option>
+                <option value="Xll-A">Xll-A</option>
+                <option value="Xll-B">Xll-B</option>
+                </select>
+                  
+                <label for="Gender" class="block text-sm font-medium mb-4">Gender</label>
+                <input type="radio" name="Male">Male
+                <input type="radio" name="female" id="female">female
+            
+                <label for="Competition Category" class="font-medium py-1 flex mb-4">Competition Category</label>
+                <select name="Competition Category" id="Competition Category" required class="mt-1 block border border-gray-300 rounded-md shadow-sm">
+                <option value=""></option>
+                <option value="Web Development">Web Development</option>
+                <option value="ioT Project">ioT Project</option>
+                <option value="Graphic Design">Graphic Design</option>
+                <option value="Public Speaking">Public Speaking</option>
+                <option value="Photography">Photography</option>
+                </select>
+
+                <label for="Paticipation Type" class="font-medium py-1 flex mb-4">Paticipation Type</label>
+                <input type="radio" name="individual">individual
+                <input type="radio" name="Team" id="Team">Team
+
+                <label for="Enter your team's name" class="font-medium py-1 flex mb-4">Enter your team's name</label>
+                <input type="text" name="name" id="Name" required class="mt-1 block  border border-gray-300 rounded-md shadow-sm mb-4">
+
+                <label for="Contact Number" class="font-medium py-1 flex mb-4">Contact Number</label>
+                <input type="number" name="Contact Number" id="Contact Number" required class="mt-1 block  border border-gray-300 rounded-md shadow-sm mb-4">
+
+                <label for="Describe your project or competition entry" class="font-medium py-1 flex mb-4">Describe your project or competition entry</label>
+                <textarea name="Describe your project or competition entry" id="text"  required class="mt-1 block  border border-gray-300 rounded-md shadow-sm mb-4"></textarea>
+                 <input type="Regiter now" value="Regiter now" class="bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600 transition duration-300 ">
+             </form>
+        </section>
+    </main>
+
+    <div  class="max-w-4xl mx-auto px-4 py-5 bg-white shadow-lg rounded-lg">
+       <h2 class="text-2xl font-bold mb-4">Paticipant table</h2>
+        <table class="border border-gray-300">
+             <tr class="bg-white">
+                <th>No</th>
+                <th>Participant</th>
+                <th>Class</th>
+                <th>Category</th>
+                <th>Team</th>
+                <th>Status</th>
+             </tr>
+                <tr>
+                  <td>1</td>
+                   <td>2</td>
+                   <td>3</td>
+                   <td>4</td>
+             </tr>
+
+             <tr>
+                <td class="p-2">Oscar piastri</td>
+                <td class="p-2">George russell</td>
+                <td class="p-2">Kimi antonelli</td>
+                <td class="p2">Lando norris</td>
+             </tr>
+
+             <tr>
+                <td class="p-2">Web Development</td>
+                <td class="p-2">Public Speaking</td>
+                <td class="p-2">Photography</td>
+                <td class="p-2">ioT Project</td>
+             </tr>
+
+             <tr>
+                   <td class="p-2">Koala</td>
+                    <td class="p-2">Tiger</td>
+                    <td class="p-2">Barrila</td>
+                    <td class="p-2">Lavender</td>
+             </tr>
+
+             <tr>
+                <td class="p-2">Registered</td>
+                    <td class="p-2">Registered</td>
+                    <td class="p-2">Pending</td>
+                    <td class="p-2">Pending</td>
+             </tr>
+          
+        </table>
+    </div>
+
+</body>
+</html>
